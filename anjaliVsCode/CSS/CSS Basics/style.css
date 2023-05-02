@@ -1,0 +1,65 @@
+/* h1~p{
+    color: red;
+} */
+/* .para{
+    border: 1px dashed gray;
+    color: red;
+    font-size: 44;
+    font-weight: 700;
+    font-weight: 2000;
+    
+} */
+
+/* id selector */
+/* syntax:
+#id_name{
+    property:value;
+} */
+/* #para_1{
+    border: 1px dashed gray;
+    color: red;
+    font-size: 44;
+    font-weight: 700;
+    font-weight: 2000;
+}
+h1{
+    border: 1px solid black;
+    color: blue;
+    font-size: 44;
+}
+h2{
+    border: 1px solid black;
+    color: blue;
+    font-size: 44;
+}
+/* universal selectors: it will select all html elementi ur webpage */
+/* *{
+text-align: center;
+} */ 
+
+/* grouping selectors r used for grouping diff selectors with same style */
+/* .para, #para_1{
+    border: 1px solid black;
+    color: blue;
+    font-size: 44;
+}
+.btn1{
+    background-color: brown;
+}
+.btn2{
+    background-color: greenyellow;
+}
+.btn3{
+    background-color: palevioletred;
+}
+.para ~ h1{
+    color: yellow;
+}
+ */
+
+h1 + p{
+    color: yellowgreen;
+}
+#para_1 + .head{
+    color: brown;
+}
