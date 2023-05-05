@@ -1,0 +1,11 @@
+/* ::marker{
+    align-items: end !important;
+} */
+/* this style will not be applied due to the preference order of css styling */
+
+
+p{
+    color: blue !important; 
+    /* important is always important than the position & orde of apperance */
+    color: red;
+}

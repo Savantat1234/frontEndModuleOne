@@ -1,0 +1,8 @@
+input[type="text"], input[type="email"]{
+    border: 2px solid green;
+    border-radius: 8px;
+
+
+}
+/* generelly this type of selecters are used for input tag mostely
+this will target only the input tag whose attribute is type and whose value is text only in this case */

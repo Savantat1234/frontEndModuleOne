@@ -1,0 +1,17 @@
+/* used to style some specified part of an element */
+/* syntax-->
+selector::psuedo element{
+
+} */
+.ritt::first-line{
+    color: blueviolet;
+}
+.ritt::first-letter{
+    color: brown;
+}
+.ritt::after{
+    content: "in this way, this concludes";
+}
+.ritt::before{
+    content: "hey there";
+}

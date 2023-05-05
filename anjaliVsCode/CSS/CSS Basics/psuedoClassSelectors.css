@@ -1,0 +1,47 @@
+/* synax--> any-selector:pseudo-selector{} */
+/* link psuedo selector means all non visited links  */
+a:link{
+    color: red;
+}
+/* :visited --> this psuedo class selectors comes with links only..
+it will select all visited links */
+a:visited{
+    color: green;
+}
+
+/* :hover --> it add style to perticular element when u move ur cursor to tha element */
+a:hover{
+    color: coral;
+}
+
+/* :active --> this pseudo class selector selects all the active links */
+a:active{
+    color: blueviolet;
+}
+
+/* :focus--> will select all the element that is focus on (used with input tags only) */
+/* class focus is only applied to input tags only */
+input:focus{
+    background-color: aqua;
+}
+.btn{
+    background-color: brown;
+    border: 1px solid black;
+    color: blue;
+    font-size: 44;
+}
+.container p{
+    color: blue;
+}
+.container p:first-child{
+    color: red;
+}
+.container p:last-child{
+    color: red;
+}
+.container p:nth-child(2n+1){
+    color: red;
+}
+.container p:nth-child(4n):hover{
+    color: greenyellow;
+}

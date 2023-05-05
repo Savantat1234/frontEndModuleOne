@@ -1,0 +1,13 @@
+.para{
+    color:green;
+    /* as this  this p tag has its own color and higher specificity..
+     this style is picked
+} */
+section{
+    color: blueviolet;
+    /* inheitance is possible 
+    as we r giving style to only section tag,, bt applied to its child also */
+    /* all properties can be inherited */
+
+}
+ 

@@ -1,0 +1,63 @@
+/* specificity: */
+
+/* imporant hv specificity: 10000 */
+.para{
+    color:green !important;
+    font-size: 40px;
+}
+
+/* inline style hv specificity: 1000 */
+
+/* id selector hv specificity: 100 */
+#std{
+    color: chocolate !important;
+    font-size: 20 !important;
+    
+}
+
+/* class , psuedo class, & attribute selectors hv specificity: 10 */
+.para{
+    color:green;
+    font-size: 40px;
+}
+:hover{
+    color: black;
+}
+[type="text"]{
+background-color: lightblue;
+}
+
+p{
+    color: blueviolet;
+    font-size: 10px;
+}
+
+
+  /* as class having more specificity, the style given by class is picked up irrespective of position & order 
+ .para{
+    color: green;
+}*/
+p{
+    color: red;
+    color: blue;
+}
+
+
+ /* unversal selectors(*): no specificity  */
+ *{
+    color: blue;
+     /* irrespective of this universal selector the p tag hving green color..
+    means universal selector dont hv any specificity  */
+} 
+
+p{
+    color: gray;
+} 
+  /* the above p tag  or say any other psudeo element selector like below one specificity: 1  */
+::marker{
+    color: red;
+}
+input{
+    border: 1px solid black;
+    background-color: brown;
+}  
